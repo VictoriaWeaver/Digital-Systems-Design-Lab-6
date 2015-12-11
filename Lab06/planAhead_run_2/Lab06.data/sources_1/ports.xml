@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="ADDR">
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="IDATA">
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="ODATA">
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Port Id="BUS_ID" Dir="IN"/>
+		<Port Id="RESET" Dir="IN"/>
+		<Port Id="RW" Dir="IN"/>
+		<Port Id="READY" Dir="IN"/>
+		<Port Id="BURST" Dir="IN"/>
+		<Port Id="CLK" Dir="IN"/>
+		<Port Id="unused_anode" Dir="OUT"/>
+		<Port Id="hund_anode" Dir="OUT"/>
+		<Port Id="tens_anode" Dir="OUT"/>
+		<Port Id="ones_anode" Dir="OUT"/>
+		<Port Id="CAn" Dir="OUT"/>
+		<Port Id="CBn" Dir="OUT"/>
+		<Port Id="CCn" Dir="OUT"/>
+		<Port Id="CDn" Dir="OUT"/>
+		<Port Id="CEn" Dir="OUT"/>
+		<Port Id="CFn" Dir="OUT"/>
+		<Port Id="CGn" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

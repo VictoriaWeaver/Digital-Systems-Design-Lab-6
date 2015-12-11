@@ -1,0 +1,227 @@
+# Reading C:/MentorGraphics/tcl/vsim/pref.tcl 
+# //  ModelSim SE-64 10.1d Nov  1 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do {Mem_tb.fdo} 
+# Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity SRAM
+# -- Compiling architecture Behavioral of SRAM
+# Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mem_controller
+# -- Compiling architecture Behavioral of Mem_controller
+# Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity seven_seg_disp
+# -- Compiling architecture Behavioral of seven_seg_disp
+# Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity seven_seg_decode
+# -- Compiling architecture Behavioral of seven_seg_decode
+# Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling package bin_bcd
+# -- Compiling package body bin_bcd
+# -- Loading package bin_bcd
+# Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package bin_bcd
+# -- Compiling entity IO_Bus
+# -- Compiling architecture Behavioral of IO_Bus
+# Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Mem_tb
+# -- Compiling architecture behavior of Mem_tb
+# vsim -lib work -voptargs=\"+acc\" -t 1ps work.Mem_tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "Mem_controller(Behavioral)".
+# 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mem_tb(behavior)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.bin_bcd(body)
+# Loading work.io_bus(behavioral)#1
+# Loading work.mem_controller(behavioral)#1
+# Loading work.sram(behavioral)#1
+# Loading work.seven_seg_decode(behavioral)#1
+# Loading work.seven_seg_disp(behavioral)#1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: vew4644  Hostname: FSL-20  ProcessID: 11540
+# 
+#           Attempting to use alternate WLF file "./wlft3rq1dq".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft3rq1dq
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mem_tb/uut2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mem_tb/uut2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mem_tb/uut2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mem_tb/uut2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mem_tb/uut1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mem_tb/uut1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mem_tb/uut1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mem_tb/uut1
+run
+do {Mem_tb.fdo}
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity SRAM
+# -- Compiling architecture Behavioral of SRAM
+# Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mem_controller
+# -- Compiling architecture Behavioral of Mem_controller
+# Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity seven_seg_disp
+# -- Compiling architecture Behavioral of seven_seg_disp
+# Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity seven_seg_decode
+# -- Compiling architecture Behavioral of seven_seg_decode
+# Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling package bin_bcd
+# -- Compiling package body bin_bcd
+# -- Loading package bin_bcd
+# Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package bin_bcd
+# -- Compiling entity IO_Bus
+# -- Compiling architecture Behavioral of IO_Bus
+# Model Technology ModelSim SE-64 vcom 10.1d Compiler 2012.11 Nov  1 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Mem_tb
+# -- Compiling architecture behavior of Mem_tb
+# vsim -lib work -voptargs=\"+acc\" -t 1ps work.Mem_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mem_tb(behavior)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.bin_bcd(body)
+# Loading work.io_bus(behavioral)#1
+# Loading work.mem_controller(behavioral)#1
+# Loading work.sram(behavioral)#1
+# Loading work.seven_seg_decode(behavioral)#1
+# Loading work.seven_seg_disp(behavioral)#1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: vew4644  Hostname: FSL-20  ProcessID: 11540
+# 
+#           Attempting to use alternate WLF file "./wlftwv8kaz".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftwv8kaz
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mem_tb/uut2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mem_tb/uut2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mem_tb/uut2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mem_tb/uut2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mem_tb/uut1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mem_tb/uut1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mem_tb/uut1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mem_tb/uut1
+# ** Error: READ ERROR
+#    Time: 370 ns  Iteration: 0  Instance: /mem_tb
+# ** Error: READ ERROR
+#    Time: 400 ns  Iteration: 0  Instance: /mem_tb
+# ** Error: READ ERROR
+#    Time: 430 ns  Iteration: 0  Instance: /mem_tb
+# ** Error: READ ERROR
+#    Time: 460 ns  Iteration: 0  Instance: /mem_tb
+# ** Error: READ ERROR
+#    Time: 490 ns  Iteration: 0  Instance: /mem_tb
+# ** Error: READ ERROR
+#    Time: 520 ns  Iteration: 0  Instance: /mem_tb
+# ** Error: READ ERROR
+#    Time: 550 ns  Iteration: 0  Instance: /mem_tb

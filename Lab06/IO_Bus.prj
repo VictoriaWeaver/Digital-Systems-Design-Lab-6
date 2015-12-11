@@ -1,0 +1,6 @@
+vhdl work "SRAM.vhd"
+vhdl work "Mem_controller.vhd"
+vhdl work "../../Lab05/Lab05/seven_seg_disp.vhd"
+vhdl work "../../Lab05/Lab05/seven_seg_decode.vhd"
+vhdl work "../../Lab05/Lab05/bin_bcd.vhd"
+vhdl work "IO_Bus.vhd"

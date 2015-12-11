@@ -1,0 +1,6 @@
+work	"../../../Memory_Controller.vhd"
+work	"../../../SRAM.vhd"
+work	"../../Lab05/Lab05/bin_bcd.vhd"
+work	"../../Lab05/Lab05/seven_seg_decode.vhd"
+work	"../../Lab05/Lab05/seven_seg_disp.vhd"
+work	"IO_Bus.vhd"

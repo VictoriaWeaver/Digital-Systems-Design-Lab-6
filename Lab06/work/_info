@@ -1,0 +1,281 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\DSDII\Lab06\Lab06
+T_opt
+VHW2c46_^;aodZmX5WVcDz3
+04 6 8 work mem_tb behavior 1
+=1-0040f4b2ebfb-5668612f-296-15300
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.1d;51
+Pbin_bcd
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 w1444907944
+Z7 dD:\DSDII\Lab06\Lab06
+Z8 8../../Lab05/Lab05/bin_bcd.vhd
+Z9 F../../Lab05/Lab05/bin_bcd.vhd
+l0
+L15
+VnlBBjnQV70njjL@L77AUJ0
+Z10 OL;C;10.1d;51
+31
+b1
+Z11 !s108 1449681196.886000
+Z12 !s90 -reportprogress|300|-explicit|-93|../../Lab05/Lab05/bin_bcd.vhd|
+Z13 !s107 ../../Lab05/Lab05/bin_bcd.vhd|
+Z14 o-explicit -93
+Z15 tExplicit 1
+!s100 >C_Bz8BUdHzY7eF81R9Ez2
+!i10b 1
+Bbody
+Z16 DPx4 work 7 bin_bcd 0 22 nlBBjnQV70njjL@L77AUJ0
+R1
+R2
+R3
+R4
+R5
+l0
+L22
+V9P>EQ4P?[kgFfaiK?9Bzm2
+R10
+31
+R11
+R12
+R13
+R14
+R15
+nbody
+!s100 9JHA:nT:c7X3Wc0OG=BlI2
+!i10b 1
+Eio_bus
+Z17 w1449516220
+R1
+R2
+R3
+R16
+R4
+R5
+R7
+Z18 8IO_Bus.vhd
+Z19 FIO_Bus.vhd
+l0
+L28
+Vb_HNchLcYfVa32VKJFY0<3
+R10
+31
+Z20 !s108 1449681197.603000
+Z21 !s90 -reportprogress|300|-explicit|-93|IO_Bus.vhd|
+Z22 !s107 IO_Bus.vhd|
+R14
+R15
+!s100 Lg5Rn6>I0dQgz;Ggj2PS>0
+!i10b 1
+Abehavioral
+R1
+R2
+R3
+R16
+R4
+R5
+DEx4 work 6 io_bus 0 22 b_HNchLcYfVa32VKJFY0<3
+l101
+L45
+V9AaJfC95>4ff]kE[`>[m93
+R10
+31
+R20
+R21
+R22
+R14
+R15
+!s100 ;OAgR_XXB8aBWB@LKQ3S^0
+!i10b 1
+Emem_controller
+Z23 w1449610694
+R4
+R5
+R7
+Z24 8Mem_controller.vhd
+Z25 FMem_controller.vhd
+l0
+L27
+V]L0<Z_4BbmS0nZW9<n0K80
+R10
+31
+Z26 !s108 1449681194.795000
+Z27 !s90 -reportprogress|300|-explicit|-93|Mem_controller.vhd|
+Z28 !s107 Mem_controller.vhd|
+R14
+R15
+!s100 EV_n2m`_VGddQ;K[cZPjl2
+!i10b 1
+Abehavioral
+R4
+R5
+DEx4 work 14 mem_controller 0 22 ]L0<Z_4BbmS0nZW9<n0K80
+l49
+L40
+V[BU]F;mJ6S[Hb?PYWETL63
+R10
+31
+R26
+R27
+R28
+R14
+R15
+!s100 DMj>=_Rfa2jQLRbCP9]Q@3
+!i10b 1
+Emem_tb
+Z29 w1449681188
+R1
+R4
+R5
+R7
+Z30 8Mem_tb.vhd
+Z31 FMem_tb.vhd
+l0
+L20
+V8EEoBlJ9YYTgB7d>gDS@K1
+R10
+31
+Z32 !s108 1449681198.305000
+Z33 !s90 -reportprogress|300|-explicit|-93|Mem_tb.vhd|
+Z34 !s107 Mem_tb.vhd|
+R14
+R15
+!s100 7^V=bBCW`hDTQ>>BS0SmA2
+!i10b 1
+Abehavior
+R1
+R4
+R5
+DEx4 work 6 mem_tb 0 22 8EEoBlJ9YYTgB7d>gDS@K1
+l95
+L23
+VRjP`<nXVTkM4;Qkm^>7>j1
+R10
+31
+R32
+R33
+R34
+R14
+R15
+!s100 08_jP3[TJ^WFOBR=n5?7;3
+!i10b 1
+Eseven_seg_decode
+Z35 w1445520602
+R4
+R5
+R7
+Z36 8../../Lab05/Lab05/seven_seg_decode.vhd
+Z37 F../../Lab05/Lab05/seven_seg_decode.vhd
+l0
+L27
+Vc[ocPT<7`MMW0ZIzAdPL91
+R10
+31
+Z38 !s108 1449681196.215000
+Z39 !s90 -reportprogress|300|-explicit|-93|../../Lab05/Lab05/seven_seg_decode.vhd|
+Z40 !s107 ../../Lab05/Lab05/seven_seg_decode.vhd|
+R14
+R15
+!s100 5iDCl`9dcIOmT3BWO3<2P3
+!i10b 1
+Abehavioral
+R4
+R5
+DEx4 work 16 seven_seg_decode 0 22 c[ocPT<7`MMW0ZIzAdPL91
+l36
+L32
+V3ISWn4oFX@6edzj648J?b2
+R10
+31
+R38
+R39
+R40
+R14
+R15
+!s100 8HT?7TRRzIjQCTdDDnD5V1
+!i10b 1
+Eseven_seg_disp
+Z41 w1449516702
+R3
+R2
+R4
+R5
+R7
+Z42 8../../Lab05/Lab05/seven_seg_disp.vhd
+Z43 F../../Lab05/Lab05/seven_seg_disp.vhd
+l0
+L28
+Vd@XoWD2e`@nNmQ7i8^Eij1
+R10
+31
+Z44 !s108 1449681195.482000
+Z45 !s90 -reportprogress|300|-explicit|-93|../../Lab05/Lab05/seven_seg_disp.vhd|
+Z46 !s107 ../../Lab05/Lab05/seven_seg_disp.vhd|
+R14
+R15
+!s100 X^`C^fnkmM=m;4BQ5N3KB1
+!i10b 1
+Abehavioral
+R3
+R2
+R4
+R5
+DEx4 work 14 seven_seg_disp 0 22 d@XoWD2e`@nNmQ7i8^Eij1
+l48
+L41
+VlZ>iS_cA?CTUWAjTDd?oV1
+R10
+31
+R44
+R45
+R46
+R14
+R15
+!s100 ?MRfAh?oiBDQ?fVU7QV=X3
+!i10b 1
+Esram
+Z47 w1449341926
+R1
+R4
+R5
+R7
+Z48 8SRAM.vhd
+Z49 FSRAM.vhd
+l0
+L27
+Vo<47jZ?dlbRLXhYQ`bCGm0
+R10
+31
+Z50 !s108 1449681191.922000
+Z51 !s90 -reportprogress|300|-explicit|-93|SRAM.vhd|
+Z52 !s107 SRAM.vhd|
+R14
+R15
+!s100 ]DdgnH^7ilofO5n@CFnEc0
+!i10b 1
+Abehavioral
+R1
+R4
+R5
+DEx4 work 4 sram 0 22 o<47jZ?dlbRLXhYQ`bCGm0
+l43
+L35
+Vc8Mfa<5WHgVMdO;Kk@>OY2
+R10
+31
+R50
+R51
+R52
+R14
+R15
+!s100 k9T`cnfR[W5o1GWZeMS382
+!i10b 1

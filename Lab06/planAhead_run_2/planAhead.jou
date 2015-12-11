@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Dec 07 14:25:40 2015
+# Process ID: 24212
+# Log file: D:/DSDII/Lab06/Lab06/planAhead_run_2/planAhead.log
+# Journal file: D:/DSDII/Lab06/Lab06/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/DSDII/Lab06/Lab06/pa.fromNetlist.tcl
+startgroup
+set_property package_pin T10 [get_ports BUS_ID]
+endgroup
+save_constraints

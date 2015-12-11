@@ -1,0 +1,99 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Dec 07 14:08:44 2015
+# Process ID: 21288
+# Log file: D:/DSDII/Lab06/Lab06/planAhead_run_1/planAhead.log
+# Journal file: D:/DSDII/Lab06/Lab06/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/DSDII/Lab06/Lab06/pa.fromNetlist.tcl
+startgroup
+set_property package_pin P17 [get_ports hund_anode]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports ones_anode]
+endgroup
+startgroup
+set_property package_pin P18 [get_ports tens_anode]
+endgroup
+set_property is_loc_fixed false [get_ports [list  ones_anode]]
+set_property is_loc_fixed false [get_ports [list  ones_anode]]
+startgroup
+set_property package_pin N16 [get_ports ones_anode]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports tens_anode]
+endgroup
+startgroup
+set_property package_pin P18 [get_ports hund_anode]
+endgroup
+startgroup
+set_property package_pin P17 [get_ports unused_anode]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports tens_anode]
+endgroup
+set_property package_pin "" [get_ports [list  RW]]
+startgroup
+set_property package_pin T17 [get_ports CAn]
+endgroup
+startgroup
+set_property package_pin T18 [get_ports CBn]
+endgroup
+startgroup
+set_property package_pin U17 [get_ports CCn]
+endgroup
+startgroup
+set_property package_pin U18 [get_ports CDn]
+endgroup
+startgroup
+set_property package_pin M14 [get_ports CEn]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports CFn]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports CGn]
+endgroup
+startgroup
+set_property package_pin V10 [get_ports CLK]
+endgroup
+set_property package_pin "" [get_ports [list  READY]]
+set_property is_loc_fixed false [get_ports [list  CLK]]
+set_property is_loc_fixed true [get_ports [list  CLK]]
+startgroup
+set_property package_pin T5 [get_ports {IDATA[3]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {IDATA[2]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {IDATA[1]}]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports {IDATA[0]}]
+endgroup
+startgroup
+set_property package_pin M8 [get_ports {ADDR[2]}]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports {ADDR[1]}]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports {ADDR[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  BURST]]
+startgroup
+set_property package_pin A8 [get_ports RESET]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports RW]
+endgroup
+startgroup
+set_property package_pin D9 [get_ports READY]
+endgroup
+startgroup
+set_property package_pin C4 [get_ports BURST]
+endgroup
+save_constraints
